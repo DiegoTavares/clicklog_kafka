@@ -1,0 +1,11 @@
+{"namespace": "trivago.avro",
+ "type": "record",
+ "name": "ClickLog",
+ "fields": [
+     {"name": "user_id", "type": ["int", "null"]},
+     {"name": "time", "type": ["int", "null"]},
+     {"name": "action", "type": ["int", "null"]},
+     {"name": "destination", "type": ["int", "null"]},
+     {"name": "hotel", "type": ["int", "null"]}
+ ]
+}
